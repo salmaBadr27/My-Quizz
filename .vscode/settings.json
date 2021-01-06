@@ -1,0 +1,15 @@
+{
+	"emmet.preferences": {},
+	"emmet.showSuggestionsAsSnippets": true,
+	"emmet.triggerExpansionOnTab": true,
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact",
+		"html": "html",
+		"css": "css"
+	},
+	"emmet.syntaxProfiles": {
+		"javascript": "javascriptreact",
+		"html": "html",
+		"css": "css"
+	}
+}
