@@ -22,7 +22,7 @@ class SignIn extends Component {
 
 	render() {
 		const { authError, auth } = this.props;
-		if (auth.uid) return <Redirect to="/teacher-dashboard" />;
+		if (auth.uid) return <Redirect to="/" />;
 		return (
 			<div className="container ">
 				<div className="card row">

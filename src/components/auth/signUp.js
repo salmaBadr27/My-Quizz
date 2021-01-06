@@ -24,7 +24,7 @@ class SignUp extends Component {
 
 	render() {
 		const { auth, authError } = this.props;
-		if (auth.uid) return <Redirect to="/teacher-dashboard" />;
+		if (auth.uid) return <Redirect to="/" />;
 		return (
 			<div className="container">
 				<div className="card row">
